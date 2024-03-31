@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+body {
+  color: white;
+  font-family: "Metropolis";
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.advertisement{
+    height: 52px;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav {
+  font-size: 14px;
+  font-weight: 500px;
+  padding: 0 40px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+img[alt="tesla-logo"] {
+  width: 120px;
+  height: 24px;
+}
+
+.nav-titles {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  letter-spacing: 1px;
+}
+
+.nav-titles li{
+    margin: 0 8px;
+}
+.nav-titles a{
+    padding: 4px 8px;
+}
+
+.nav-icons {
+  display: flex;
+}
+.icons {
+    margin: 0 5px;
+}
+
+.model3-main-section {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.technical-detail-section {
+  display: flex;
+}
+
+video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.reengineered-section{
+    text-align: center;
+    margin-top: 56px;
+    letter-spacing: 1px;
+
+}
+.reengineered-section h3{
+    font-size: 23px;
+    font-weight: 400;
+}
+.reengineered-section h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 6px;
+    letter-spacing: 2px;
+}
+.reengineered-section p{
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+
+.technical-detail-section{
+    width: 540px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.technical-detail-section div{
+    width: 120px;
+}
+.technical-detail-section h4{
+    font-size: 24px;
+    font-weight:500;
+}
+
+.amount{
+    font-size: 20px;
+}
+
+.technical-detail-section p{
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.technical-detail-section a{
+    font-size: 14px;
+}
+
+.details-section-btns{
+    display: flex;
+    justify-content: space-between;
+    border:solid white  3px;
+    text-align: center;
+    width: 492px;
+}
+.details-section-btns a{
+    width: 235px;
+    height: 40px;
+    border-radius: 4px;
+}
+.first-btn{
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+}
+
+
+
+@font-face {
+  font-family: "Metropolis";
+  src: url(../assets/fonts/Metropolis-Medium.woff);
+  font-weight: normal;
+  font-style: normal;
+}
