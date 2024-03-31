@@ -67,7 +67,7 @@ img[alt="tesla-logo"] {
 }
 
 .model3-main-section {
-  height: 80vh;
+  height: 86vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -139,14 +139,17 @@ video {
 .details-section-btns{
     display: flex;
     justify-content: space-between;
-    border:solid white  3px;
     text-align: center;
     width: 492px;
+    margin: 20px auto 0;
 }
 .details-section-btns a{
     width: 235px;
     height: 40px;
     border-radius: 4px;
+    border:solid white  3px;
+    padding-top: 10px ; 
+    font-size: 14px;
 }
 .first-btn{
     background-color: white;
